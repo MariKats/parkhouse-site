@@ -15,7 +15,7 @@
 }
 
 .navbar {
-  height: 110px;
+  min-height: 110px;
 }
 
 .carousel {
@@ -79,6 +79,14 @@
   margin-left: auto;
 }
 
+.about-us img {
+  padding-bottom: 50px;
+}
+
 address a:link {
   color: white;
+}
+
+.map {
+  padding-top: 50px;
 }
