@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+
+  <title>Park House | Handmade Leather Goods</title>
+  <link rel="shortcut icon" href="http://parkhouse.gr/wp-content/uploads/2016/07/logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">
+      <img src="./images/logo.png" width="50" height="50" class="d-inline-block align-middle" alt="">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-around" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About Us
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Collections
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Fall - Winter 2018</a>
+            <a class="dropdown-item" href="#">Spring - Summer 2018</a>
+            <a class="dropdown-item" href="#">Fall - Winter 2016/1017</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Press</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="">Find Us in Stores
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+    <button type="button" class="btn btn-outline-info d-none d-md-block" data-toggle="modal" data-target="#subscribeModal">
+      Subscribe
+    </button>
+
+    <!-- <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">SEARCH</button>
+      </form> -->
+  </nav>
+
+  <!-- Store Locator -->
+  <div class="overlay"></div>
+  <div class="stores">
+
+    <!-- Stores List -->
+    <div class="stores-list">
+      <!-- <h1 class="display-5 stores-list-title text-center">Find Us in Stores</h1> -->
+
+      <!-- Athens Dropdown -->
+      <div class="list-group">
+        <div class="dropdown">
+          <a href="#" class="list-group-item list-group-item-action dropdown-toggle" data-toggle="dropdown">Athens</a>
+          <div class="dropdown-menu dropdown-menu-stores">
+            <div class="dropdown-item">
+              <a class="store-name" href="http://www.kirkiseye.gr/" target="_">KIRKI’S EYE</a>
+              <address class="store-address">
+                3 DIONYSIOU AREOPAGITOU STREET, ATHENS
+                <br> +30 210 9215907
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="https://www.facebook.com/pages/category/Local-Business/Angels-Glyfada-101978266821511/" target="
+              _blank">ANGEL'S GLYFADA</a>
+              <address class="store-address">
+                76 KYPROU STREET, GLYFADA
+                <br> +30 210 8980609
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="https://www.facebook.com/ParamourStore/" target="_blank">PARAMOUR </a>
+              <address class="store-address">
+                19 KASSAVETI STREET, KIFISIA
+                <br> +30 210 8084424
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="http://www.matchboxathens.com/shops/" target="_blank">MATCHBOX (KOLONAKI)</a>
+              <address class="store-address">
+                5 ANAGNOSTOPOULOU ST., ATHENS 10673
+                <br> +30 210 3614472
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="http://www.matchboxathens.com/shops/" target="_blank">MATCHBOX (NEO PSIHIKO)</a>
+              <address class="store-address">
+                1 PSYCHARI STREET, NEO PSIHIKO
+                <br> +30 210 6745717
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="https://www.google.gr/search?q=heroes%20athens&oq=heroes+athens+&aqs=chrome..69i57j0l5.2671j0j7&sourceid=chrome&ie=UTF-8&npsic=0&rflfq=1&rlha=0&rllag=37975427,23724819,224&tbm=lcl&rldimm=4508553441423549349&ved=2ahUKEwjz3vOStKHdAhWPiaYKHc1FCSsQvS4wAHoECAIQGQ&rldoc=1&tbs=lrf:!2m1!1e2!2m1!1e16!3sIAE,lf:1,lf_ui:2#rlfi=hd:;si:4508553441423549349;mv:!3m12!1m3!1d2276.847478872592!2d23.7248196!3d37.977174850000004!2m3!1f0!2f0!3f0!3m2!1i132!2i139!4f13.1;tbs:lrf:!2m1!1e2!2m1!1e16!3sIAE,lf:1,lf_ui:2"
+                target="_blank">HEROES</a>
+              <address class="store-address">
+                9 AIOLOU STREET, ATHENS 10555
+                <br> +30 210 6745717
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="https://www.atticadps.gr/">ATTICA DEPARTMENT STORE</a>
+              <address class="store-address">
+                9 PANEPISTIMIOU ST., ATHENS 19671
+                <br> +30 211 1802500
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="https://tatoiclub.com/">TATOI CLUB</a>
+              <address class="store-address">
+                116 ERYTHRAIAS ST., ACHARNES 13677
+                <br> +30 214 4166000
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GREECE -->
+      <div class="list-group">
+        <div class="dropdown">
+          <a href="#" class="list-group-item list-group-item-action dropdown-toggle" data-toggle="dropdown">Greece</a>
+          <div class="dropdown-menu dropdown-menu-stores">
+            <div class="dropdown-item">
+              <a class="store-name" href="#" target="_blank">ANGEL'S ANTIPAROS
+              </a>
+              <address class="store-address">
+                CHORA ANTIPAROU, ANTIPAROS 84007
+                <br> +30 22840 61700
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="#" target="
+              _blank">ANGEL'S PAROS</a>
+              <address class="store-address">
+                NAOUSSA, PAROS 84401
+                <br> +30 22840 53380
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="http://www.apoella.com/locations/" target="_blank">APOELLA CONCEPT STORE CRETE</a>
+              <address class="store-address">
+                DAIOS COVE, VATHI 72100, CRETE
+                <br> +30 2841 061020
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="http://www.apoella.com/locations/" target="_blank">APOELLA CONCEPT STORE HALKIDIKI</a>
+              <address class="store-address">
+                SANI RESORT,CASSANDRA 63077, HALKIDIKI
+                <br> +30 23740 99400
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="https://www.facebook.com/Citria-445716488883905/" target="_blank">CITRIA MULTISPACE PATMOS</a>
+              <address class="store-address">
+                38 NIKOFOROU THEOTOKI ST., PATMOS 85500
+                <br> +30 22471 11176
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="www.dominique.gr/" target="_blank">DOMINIQUE SEWING ROOM LARISSA</a>
+              <address class="store-address">
+                27A PAPAKYRIAZI ST, LARISSA 41222
+                <br> +30 24105 35056
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="https://b-m.facebook.com/Marikas-BoutiqueMykonos-343760922813540/" target="_blank">MARIKA'S BOUTIQUE MYKONOS</a>
+              <address class="store-address">
+                39 KOUZI GEORGOULI ST, MIKRI VENETIA, MYKONOS 84600
+                <br> +30 22890 22285
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="https://www.facebook.com/mirmiridia/" target="_blank">MIRMIRIDIA KOS</a>
+              <address class="store-address">
+                10, 25 MARTIOU ST., KOS 85300
+                <br> mirmiridia@hotmail.com
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="#">MURTELI PAXOI</a>
+              <address class="store-address">
+                LAKKA PAXON, 49082
+                <br> +30 26610 45956
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="https://www.rocabella-hotel-mykonos.com" target="_blank">ROCABELLA ART HOTEL & SPA MYKONOS</a>
+              <address class="store-address">
+                AGIOS STEFANOS BEACH, MYKONOS 84600
+                <br> +30 22890 28930
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="https://www.facebook.com/Under-a-Fig-Tree-Boutique-1439103743067543/" target="_blank">UNDER A FIG TREE SANTORINI</a>
+              <address class="store-address">
+                IMEROVIGLI, SANTORINI 84700
+                <br> +30 22860 25012
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="#">URBAN POSH CORFU</a>
+              <address class="store-address">
+                38, FILARMONIKIS ST., CORFU 49131
+                <br> +30 26610 4595
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="https://www.whiterocks.gr/" target="_blank">WHITE ROCKS KEFALONIA</a>
+              <address class="store-address">
+                PLATIS GIALOS BEACH, KEFALONIA 28100
+                <br> +30 26710 28335
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="https://www.zenya.gr/index.php/en/" target="_blank">ZENYA THESSALONIKI</a>
+              <address class="store-address">
+                9 NIKIS AVENUE, THESSALONIKI 546241
+                <br> +30 26610 4595
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ASIA -->
+      <div class="list-group">
+        <div class="dropdown">
+          <a href="#" class="list-group-item list-group-item-action dropdown-toggle" data-toggle="dropdown">Asia</a>
+          <div class="dropdown-menu dropdown-menu-stores">
+            <div class="dropdown-item">
+              <a class="store-name" href="http://ronherman.jp/" target="_blank">RON HERMAN TOKYO</a>
+              <address class="store-address">
+                2 CHOME-11-１ SENDAGAYA, SHIBUYA, TOKYO 151-8575
+                <br> +81 3-3402-6839
+              </address>
+            </div>
+            <div class="dropdown-item">
+              <a class="store-name" href="http://ronherman.jp/" target="_blank">RON HERMAN TOKYO</a>
+              <address class="store-address">
+                KANAGAWA, YOKOHAMA CITY, 1-3-1
+                <br> +81 45-319-6751
+              </address>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ONLINE -->
+      <div class="list-group">
+        <div class="dropdown">
+          <a href="#" class="list-group-item list-group-item-action dropdown-toggle" data-toggle="dropdown">Online</a>
+          <div class="dropdown-menu dropdown-menu-stores">
+            <div class="dropdown-item">
+              <a class="store-name" href="https://www.wecreateharmony.com/" target="_blank">WE CREATE HARMONY</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stores Map -->
+    <div class="stores-map text-center">
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1o-WqADdCqoKvNXjuAQHFfMCi8NzowsL4" width="100%" height="100%"></iframe>
+    </div>
+
+  </div>
+
+  <!-- Contact -->
+  <div id="contact" class="jumbotron bg-dark contact text-light text-center">
+    <h1 class="display-4">Contact Us</h1>
+    <!-- <p class="lead tagline">We'll be happy to hear from you!</p> -->
+    <hr class="my-4 bg-light">
+    <div class="contact-details">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-5 contact-detail text-left align-self-center">
+          <div class="address">
+            <h6>CONTACT US</h6>
+            <address>
+              43 Filellinon, Halandri, 15232
+              <br> +30 210 6855398
+              <br>
+              <a href="mailto:info@parkhouse.gr">info@parkhouse.gr</a>
+            </address>
+          </div>
+          <hr class="bg-light">
+          <div class=" follow-us ">
+            <h6>FOLLOW US</h6>
+            <div class="social-group ">
+              <a href="https://www.facebook.com/parkhousebags/" target="_">
+                <i class=" fab fa-facebook "></i>
+              </a>
+              <a href="https://www.instagram.com/park_house/" target="_">
+                <i class="fab fa-instagram "></i>
+              </a>
+              <a href=" ">
+                <i class="fab fa-pinterest-square "></i>
+              </a>
+            </div>
+            <hr class="bg-light">
+            <div class="subscribe">
+              <form>
+                <div class="form-group">
+                  <h6 for="email ">PLEASE SUBSCRIBE
+                  </h6>
+                  <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email address" required>
+                </div>
+
+                <button type="submit " class="btn btn-block btn-outline-light ">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 contact-detail map-responsive">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.271185179572!2d23.78625301562791!3d38.01745690593211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1985e38ef282b%3A0x252215c585b4ab0c!2sFilellinon+43%2C+Chalandri+152+32!5e0!3m2!1sen!2sgr!4v1535974641057 "
+            width="600 " height="450 " frameborder="0 " style="border:0 " allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+    crossorigin="anonymous "></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 "
+    crossorigin="anonymous "></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy "
+    crossorigin="anonymous "></script>
+</body>
+
+</html>

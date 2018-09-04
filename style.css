@@ -4,10 +4,25 @@
   Version: 1.0
  */
 
-.jumbotron {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   color: #707070;
+  font-size: 16px;
+  line-height: 1.7;
+  overflow-y: scroll;
+}
+
+.jumbotron {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: #777;
 }
 
 .tagline {
@@ -16,6 +31,12 @@
 
 .navbar {
   min-height: 110px;
+}
+
+.navbar-nav li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
 }
 
 .carousel {
@@ -39,12 +60,6 @@
   width: 250px;
 }
 
-.navbar-nav li {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 100;
-  text-transform: uppercase;
-}
-
 .center {
   position: absolute;
   top: 50%;
@@ -52,25 +67,33 @@
   transform: translate(-50%, -50%);
 }
 
-.featured-products {
-  padding: 0px 30px 30px 30px;
-}
-
 .contact-details {
-  /* border: 3px solid orangered; */
   width: 60%;
   margin-right: auto;
   margin-left: auto;
-  /* overflow: hidden; */
-}
-
-.contact {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
 }
 
 .social-group a i {
   color: white;
+}
+
+.subscribe {
+  padding-bottom: 20px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  margin-left: auto;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .about-us {
@@ -86,3 +109,54 @@
 address a:link {
   color: white;
 }
+
+.stores {
+  max-width: 1200px;
+  background-color: #f4f2f2;
+  margin: 50px auto;
+  /* box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3); */
+  display: flex;
+}
+
+.stores-map {
+  /* flex: 0 0 60%; */
+  flex: 1;
+}
+
+/* .stores-list {
+  flex: 1;
+} */
+
+.stores-list-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: #707070;
+}
+
+.store-name {
+  text-decoration: none;
+  color: #707070;
+}
+
+.store-name:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+.store-address {
+  font-size: 13px;
+}
+
+.dropdown-menu-stores {
+  width: 100%;
+  max-height: 500px;
+  overflow: auto;
+}
+
+/* .overlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eaecef;
+  position: absolute;
+  z-index: -1000;
+} */
