@@ -161,16 +161,9 @@ address a:link {
   text-decoration: none;
 }
 
-.insta-photos {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
 .insta-photo {
-  background-color: #ccc;
-  width: 250px;
-  height: 250px;
+  max-width: 250px;
+  max-height: 250px;
   margin-bottom: 15px;
   position: relative;
 }
