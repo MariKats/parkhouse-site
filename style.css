@@ -153,6 +153,55 @@ address a:link {
   overflow: auto;
 }
 
+.insta-hashtag {
+  color: orangered;
+}
+
+.insta-hashtag-link:hover {
+  text-decoration: none;
+}
+
+.insta-photos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.insta-photo {
+  background-color: #ccc;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.insta-photo:hover .insta-photo-caption {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+}
+
+.insta-photo:hover img {
+  filter: brightness(40%);
+}
+
+.insta-photo img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s;
+  backface-visibility: hidden;
+}
+
+.insta-photo-caption {
+  transform: translate(-50%, 30%);
+  opacity: 0;
+  transition: all 0.2s;
+  backface-visibility: hidden;
+}
+
+.insta-photo-caption a i {
+  color: white;
+}
+
 /* .overlay {
   width: 100vw;
   height: 100vh;
