@@ -23,6 +23,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   color: #777;
+  background-color: rgb(236, 234, 234) !important;
 }
 
 .tagline {
@@ -31,6 +32,8 @@ body {
 
 .navbar {
   min-height: 110px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  background-color: white;
 }
 
 .navbar-nav li {
@@ -39,11 +42,44 @@ body {
   text-transform: uppercase;
 }
 
+.dropdown-item {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  color: #707070 !important;
+  font-weight: 100 !important;
+}
+
+.dropdown-item:hover {
+  color: #333 !important;
+  font-weight: 400 !important;
+}
+
 .carousel {
   width: 100%;
 }
 
-.white-box {
+.welcome-box,
+.instagram {
+  background-color: white !important;
+}
+
+.collections,
+.contact {
+  background-color: grey !important;
+}
+
+.collection-link {
+  color: #707070;
+  transform: all 0.2s;
+}
+
+.collection-link:hover {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* .white-box {
   background-color: rgba(255, 255, 255, 0.8);
   height: 250px;
   width: 350px;
@@ -58,7 +94,7 @@ body {
 .white-box img {
   height: auto;
   width: 250px;
-}
+} */
 
 .center {
   position: absolute;
@@ -67,14 +103,27 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.lookbook {
+  margin-bottom: 20px;
+}
+
 .contact-details {
   width: 60%;
   margin-right: auto;
   margin-left: auto;
 }
 
+.social-group a:hover {
+  text-decoration: none;
+}
+
+.social-group a:hover i {
+  color: gainsboro;
+}
+
 .social-group a i {
   color: white;
+  margin-right: 10px;
 }
 
 .subscribe {
@@ -114,7 +163,6 @@ address a:link {
   max-width: 1200px;
   background-color: #f4f2f2;
   margin: 50px auto;
-  /* box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3); */
   display: flex;
 }
 
@@ -162,9 +210,7 @@ address a:link {
 }
 
 .insta-photo {
-  max-width: 250px;
-  max-height: 250px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   position: relative;
 }
 

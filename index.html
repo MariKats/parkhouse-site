@@ -21,9 +21,10 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="/">
-      <img src="./images/logo.png" width="50" height="50" class="d-inline-block align-middle" alt="">
+      <img src="http://parkhouse.gr/wp-content/uploads/2016/07/logo_big.png" nopin="nopin" width="120" height="80" class="d-inline-block align-middle"
+        alt="">
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
@@ -39,7 +40,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./about.html">About Us</a>
+          <a class="nav-link" href="./about.html">Philosophy</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -49,21 +50,18 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="#">Fall - Winter 2018</a>
             <a class="dropdown-item" href="#">Spring - Summer 2018</a>
-            <a class="dropdown-item" href="#">Fall - Winter 2016/1017</a>
+            <a class="dropdown-item" href="#">Fall - Winter 2016/2017</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">Press</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./stores.html">Find Us in Stores</a>
+          <a class="nav-link" href="./stores.html">Stokists</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="index.html#contact">Contact Us</a>
         </li>
       </ul>
     </div>
-    <button type="button" class="btn btn-outline-info d-none d-md-block" data-toggle="modal" data-target="#subscribeModal">
+    <button type="button" class="btn btn-outline-secondary d-none d-md-block" data-toggle="modal" data-target="#subscribeModal">
       Subscribe
     </button>
 
@@ -89,7 +87,7 @@
               <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email address" required>
             </div>
 
-            <button type="submit " class="btn btn-block btn-info">Submit</button>
+            <button type="submit " class="btn btn-block btn-secondary">Submit</button>
           </form>
         </div>
       </div>
@@ -98,9 +96,9 @@
 
   <!-- Carousel -->
   <div class="carousel d-flex flex-column justify-content-center align-items-center">
-    <div class="white-box center d-none d-md-flex">
+    <!-- <div class="white-box center d-none d-md-flex">
       <img class="d-none d-md-block" src="http://parkhouse.gr/wp-content/uploads/2016/07/logo_big.png" nopin="nopin" alt="">
-    </div>
+    </div> -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -162,41 +160,41 @@
     <h1 class="display-4 welcome-title">Welcome to Park House!</h1>
     <p class="lead tagline">Handmade luxury leather goods, made in Greece.</p>
     <hr class="my-4">
-    <a class="btn btn-outline-info btn-lg" href="./about.html" role="button">Our Philosophy</a>
+    <a class="btn btn-outline-secondary btn-lg" href="./about.html" role="button">Our Philosophy</a>
   </div>
 
   <!-- Collections -->
-  <div id="collections" class="jumbotron collections text-center">
+  <div id="collections" class="jumbotron collections text-center text-light">
     <h1 class="display-4">Collections</h1>
     <p class="lead tagline">Take a look at our recent lookbooks.</p>
-    <hr class="my-4">
+    <hr class="my-4 bg-light">
     <div class="lookbooks">
       <div class="row">
         <div class="col-lg-4 lookbook lookbook-1">
           <div class="card">
-            <h5 class="card-header">Fall - Winter 2018</h5>
-            <img class="card-img-top" src="./images/nik-macmillan-368149-unsplash.jpg" alt="Card image cap">
+            <h5 class="card-header text-dark">Fall/Winter 2018</h5>
+            <img class="card-img-top" src="./images/nik-macmillan-368149-unsplash.jpg" nopin="nopin" alt="Card image cap">
             <div class="card-footer">
-              <a href="#" class="btn btn-outline-info">Browse Lookbook</a>
+              <a href="#" class="collection-link">Browse Lookbook</a>
             </div>
           </div>
 
         </div>
         <div class="col-lg-4 lookbook lookbook-2">
           <div class="card">
-            <h5 class="card-header">Spring - Summer 2018</h5>
-            <img class="card-img-top" src="./images/lemur-364866-unsplash.jpg" alt="Card image cap">
+            <h5 class="card-header text-dark">Spring/Summer 2018</h5>
+            <img class="card-img-top" src="./images/lemur-364866-unsplash.jpg" nopin="nopin" alt="Card image cap">
             <div class="card-footer">
-              <a href="#" class="btn btn-outline-info">Browse Lookbook</a>
+              <a href="#" class="collection-link">Browse Lookbook</a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 lookbook lookbook-3">
           <div class="card">
-            <h5 class="card-header">Fall - Winter 2016</h5>
-            <img class="card-img-top" src="./images/pete-bellis-631034-unsplash.jpg" alt="Card image cap">
+            <h5 class="card-header text-dark">Fall/Winter 2016</h5>
+            <img class="card-img-top" src="./images/pete-bellis-631034-unsplash.jpg" nopin="nopin" alt="Card image cap">
             <div class="card-footer">
-              <a href="#" class="btn btn-outline-info">Browse Lookbook</a>
+              <a href="#" class="collection-link">Browse Lookbook</a>
             </div>
           </div>
         </div>
@@ -207,84 +205,84 @@
   <!-- Instagram -->
   <div id="instagram" class="jumbotron instagram text-center">
     <h1 class="display-4">Instagram</h1>
-    <p class="lead tagline">Get Inspired by
+    <p class="lead tagline">Take a look at
       <a class="insta-hashtag-link" href="https://www.instagram.com/park_house/" target="_blank">
         <span class="insta-hashtag">@park_house</span>
-      </a> fans.</p>
+      </a> 's featured posts.</p>
     <hr class="my-4">
     <div class="row insta-photos">
 
       <div class="col-md-2 col-sm-4 col-6">
-        <div class="insta-photo">
+        <figure class="insta-photo">
           <img src="./images/insta-photo-1.png" nopin="nopin" alt="">
           <figcaption class="insta-photo-caption center">
             <a href="https://www.instagram.com/p/BZ5rixfjx5m/" target="_blank">
               <i class="fab fa-instagram fa-lg"></i>
             </a>
           </figcaption>
-        </div>
+        </figure>
       </div>
 
       <div class="col-md-2 col-sm-4 col-6">
-        <div class="insta-photo">
+        <figure class="insta-photo">
           <img src="./images/insta-photo-2.png" nopin="nopin" alt="">
           <figcaption class="insta-photo-caption center">
             <a href="https://www.instagram.com/p/BOmxLUxjFbp/?taken-by=vickykaya_" target="_blank">
               <i class="fab fa-instagram fa-lg"></i>
             </a>
           </figcaption>
-        </div>
+        </figure>
       </div>
 
       <div class="col-md-2 col-sm-4 col-6">
-        <div class="insta-photo">
+        <figure class="insta-photo">
           <img src="./images/insta-photo-3.png" nopin="nopin" alt="">
           <figcaption class="insta-photo-caption center">
             <a href="https://www.instagram.com/p/BNwBLr0B1lj/?taken-by=chic_glam_style" target="_blank">
               <i class="fab fa-instagram fa-lg"></i>
             </a>
           </figcaption>
-        </div>
+        </figure>
       </div>
 
       <div class="col-md-2 col-sm-4 col-6">
-        <div class="insta-photo">
+        <figure class="insta-photo">
           <img src="./images/insta-photo-4.png" nopin="nopin" alt="">
           <figcaption class="insta-photo-caption center">
             <a href="https://www.instagram.com/p/BN6JYJZAsvN/?taken-by=minabirakou" target="_blank">
               <i class="fab fa-instagram fa-lg"></i>
             </a>
           </figcaption>
-        </div>
+        </figure>
       </div>
 
       <div class="col-md-2 col-sm-4 col-6">
-        <div class="insta-photo">
+        <figure class="insta-photo">
           <img src="./images/insta-photo-5.png" nopin="nopin" alt="">
           <figcaption class="insta-photo-caption center">
             <a href="https://www.instagram.com/p/Bh6F7L9H9fU/?tagged=parkhousebags" target="_blank">
               <i class="fab fa-instagram fa-lg"></i>
             </a>
           </figcaption>
-        </div>
+        </figure>
       </div>
 
       <div class="col-md-2 col-sm-4 col-6">
-        <div class="insta-photo">
+        <figure class="insta-photo">
           <img src="./images/insta-photo-6.png" nopin="nopin" alt="">
           <figcaption class="insta-photo-caption center">
             <a href="https://www.instagram.com/p/BdxPNC9lqp7/?tagged=parkhousebags" target="_blank">
               <i class="fab fa-instagram fa-lg"></i>
             </a>
           </figcaption>
-        </div>
+        </figure>
       </div>
 
     </div>
   </div>
 
   <!-- Contact -->
-  <div id="contact" class="jumbotron bg-dark contact text-light text-center">
+  <div id="contact" class="jumbotron contact text-light text-center" style="margin: 0;">
     <h1 class="display-4">Contact Us</h1>
     <!-- <p class="lead tagline">We'll be happy to hear from you!</p> -->
     <hr class="my-4 bg-light">
@@ -305,13 +303,13 @@
             <h6>FOLLOW US</h6>
             <div class="social-group ">
               <a href="https://www.facebook.com/parkhousebags/" target="_">
-                <i class=" fab fa-facebook "></i>
+                <i class=" fab fa-facebook fa-lg"></i>
               </a>
               <a href="https://www.instagram.com/park_house/" target="_">
-                <i class="fab fa-instagram "></i>
+                <i class="fab fa-instagram fa-lg"></i>
               </a>
               <a href=" ">
-                <i class="fab fa-pinterest-square "></i>
+                <i class="fab fa-pinterest-square fa-lg"></i>
               </a>
             </div>
             <hr class="bg-light">
@@ -330,7 +328,7 @@
         </div>
         <div class="col-lg-6 contact-detail map-responsive">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.271185179572!2d23.78625301562791!3d38.01745690593211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1985e38ef282b%3A0x252215c585b4ab0c!2sFilellinon+43%2C+Chalandri+152+32!5e0!3m2!1sen!2sgr!4v1535974641057 "
-            width="600 " height="450 " frameborder="0 " style="border:0 " allowfullscreen></iframe>
+            width="600" height="450" frameborder="0 " style="border:0 " allowfullscreen></iframe>
         </div>
       </div>
     </div>

@@ -14,14 +14,14 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
 
-  <title>Park House | Handmade Leather Goods</title>
+  <title>Park House | Stokists</title>
   <link rel="shortcut icon" href="http://parkhouse.gr/wp-content/uploads/2016/07/logo.jpg" type="image/x-icon">
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="/">
       <img src="./images/logo.png" width="50" height="50" class="d-inline-block align-middle" alt="">
     </a>
@@ -38,7 +38,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./about.html">About Us
+          <a class="nav-link" href="./about.html">Philosophy
           </a>
         </li>
         <li class="nav-item dropdown">
@@ -49,14 +49,11 @@
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="#">Fall - Winter 2018</a>
             <a class="dropdown-item" href="#">Spring - Summer 2018</a>
-            <a class="dropdown-item" href="#">Fall - Winter 2016/1017</a>
+            <a class="dropdown-item" href="#">Fall - Winter 2016/2017</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Press</a>
-        </li>
         <li class="nav-item active">
-          <a class="nav-link" href="">Find Us in Stores
+          <a class="nav-link" href="">Stokists
             <span class="sr-only">(current)</span>
           </a>
         </li>
@@ -65,15 +62,33 @@
         </li>
       </ul>
     </div>
-    <button type="button" class="btn btn-outline-info d-none d-md-block" data-toggle="modal" data-target="#subscribeModal">
+    <button type="button" class="btn btn-outline-secondary d-none d-md-block" data-toggle="modal" data-target="#subscribeModal">
       Subscribe
     </button>
-
-    <!-- <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
-        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">SEARCH</button>
-      </form> -->
   </nav>
+
+  <!-- Modal -->
+  <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="subscribeModalTitle">Subscribe to our Newsletter!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" id="email" placeholder="Enter your email address" required>
+            </div>
+
+            <button type="submit " class="btn btn-block btn-secondary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Stores Map -->
   <div class="stores">
@@ -86,7 +101,7 @@
   </div>
 
   <!-- Contact -->
-  <div id="contact" class="jumbotron bg-dark contact text-light text-center">
+  <div id="contact" class="jumbotron contact text-light text-center" style="margin: 0;">
     <h1 class="display-4">Contact Us</h1>
     <!-- <p class="lead tagline">We'll be happy to hear from you!</p> -->
     <hr class="my-4 bg-light">
@@ -107,13 +122,13 @@
             <h6>FOLLOW US</h6>
             <div class="social-group ">
               <a href="https://www.facebook.com/parkhousebags/" target="_">
-                <i class=" fab fa-facebook "></i>
+                <i class=" fab fa-facebook fa-lg"></i>
               </a>
               <a href="https://www.instagram.com/park_house/" target="_">
-                <i class="fab fa-instagram "></i>
+                <i class="fab fa-instagram fa-lg"></i>
               </a>
               <a href=" ">
-                <i class="fab fa-pinterest-square "></i>
+                <i class="fab fa-pinterest-square fa-lg"></i>
               </a>
             </div>
             <hr class="bg-light">
